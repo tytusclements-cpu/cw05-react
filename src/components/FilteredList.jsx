@@ -32,7 +32,7 @@ class FilteredList extends Component {
         const filtered = this.props.items.filter(this.filterItem);
 
         return (
-            <div className="card">
+            <div className="card">  {/* ✅ added */}
                 <h2>Filtered List</h2>
 
                 <input

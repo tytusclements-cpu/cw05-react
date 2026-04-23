@@ -17,7 +17,9 @@ class Counter extends Component {
             <div className="card">
                 <h2>Counter</h2>
                 <p>{this.state.count}</p>
-                <button onClick={this.incrementCount}>Increment</button>
+                <button onClick={this.incrementCount}>
+                    Increment
+                </button>
             </div>
         );
     }
